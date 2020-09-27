@@ -53,7 +53,9 @@
 	transform: translate3d(-50%, -50%, 0);
 	z-index: 99; /*bring to top*/
 }
-
+#navlist{
+	padding:0px;
+}
 #nav li {
 	padding: 8px 15px; margin : 0; font-weight : bold;
 	border-right: 1px solid #ccc;
