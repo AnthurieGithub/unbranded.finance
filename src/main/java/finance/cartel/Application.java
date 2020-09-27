@@ -25,7 +25,7 @@ public class Application extends SpringBootServletInitializer{
 	    @Override
 	    public void addResourceHandlers(ResourceHandlerRegistry registry) {
 	        registry.addResourceHandler("/**")
-	        .addResourceLocations("classpath:/css/", "classpath:/js/", "classpath:/image/")
+	        .addResourceLocations("classpath:/css/", "classpath:/js/", "classpath:/images/")
 	        .setCachePeriod(0);
 	    }
 	}
