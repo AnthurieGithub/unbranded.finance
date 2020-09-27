@@ -51,6 +51,7 @@
 	left: 50%;
 	-webkit-transform: translate3d(-50%, -50%, 0);
 	transform: translate3d(-50%, -50%, 0);
+	z-index: 99; /*bring to top*/
 }
 
 #nav li {
@@ -64,10 +65,10 @@
 	border-right: 0px;
 }
 #nav li a {
-	color: #190;
+	color: #F9F1E9;
 	text-decoration: none;
 }
 #nav li a:hover {
-	color: #c00;
+	color: #000000;
 	background-color: #fff;
 }
